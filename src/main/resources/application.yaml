@@ -1,3 +1,7 @@
+jwt:
+  secret-key: "test"
+  time : 30
+
 oauth2:
   providers:
     google:
