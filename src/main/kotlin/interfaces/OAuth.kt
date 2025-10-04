@@ -12,6 +12,6 @@ interface OAuth2TokenResponse {
 
 interface OAuth2UserResponse {
     val id: String
-    val email: String
-    val name: String
+    val email: String?
+    val name: String?
 }

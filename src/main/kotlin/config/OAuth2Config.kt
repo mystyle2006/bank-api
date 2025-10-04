@@ -22,4 +22,8 @@ class OAuth2Config {
     val providers: MutableMap<String, OAuth2ProviderValues> = mutableMapOf()
 }
 
-data class OAuth2ProviderValues(val clientId: String, val clientSecret: String, val redirectUri: String)
+data class OAuth2ProviderValues(
+    val clientId: String,
+    val clientSecret: String,
+    val redirectUri: String
+)
