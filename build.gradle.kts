@@ -6,6 +6,7 @@ plugins {
     id("io.spring.dependency-management") version "1.0.15.RELEASE"
 
     kotlin("plugin.serialization") version "1.8.0"
+    kotlin("plugin.jpa") version "1.9.22"
 }
 
 group = "org.inno"
@@ -28,6 +29,9 @@ dependencies {
 
     // jwt
     implementation("com.auth0:java-jwt:3.12.0")
+
+    // ulid
+    implementation("com.github.f4b6a3:ulid-creator:5.2.3")
 
     // reflect
     implementation("org.jetbrains.kotlin:kotlin-reflect")

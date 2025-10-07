@@ -45,3 +45,9 @@ bin/
 .DS_Store
 
 .idea
+
+# .gitignore
+application-local.yaml
+application-prod.yaml
+*.properties
+mysql_data
